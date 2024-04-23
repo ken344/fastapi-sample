@@ -11,7 +11,7 @@ env:
 
 jobs:
   build-and-push-image:
-    runs-on: utuntu-latest # OSを指定
+    runs-on: ubuntu-latest # OSを指定
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4 # https://github.com/actions/checkout
