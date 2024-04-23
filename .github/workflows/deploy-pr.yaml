@@ -1,7 +1,8 @@
 name: deploy-pr
 
 on:
-  pull_request:
+  # pull_request:
+  push:
     paths:
       - 'src/**'
       - '.github/workflows/deploy-pr.yaml'
